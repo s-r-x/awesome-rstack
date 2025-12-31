@@ -42,8 +42,8 @@ Rstack is a unified JavaScript toolchain built around Rspack, with high performa
 
 ### Official Resources
 
-- [rstack-examples](https://github.com/rspack-contrib/rspack-examples): Examples for Rstack.
-- [rstack-design-resources](https://github.com/rspack-contrib/rsfamily-desgin-resources): Design resources for Rstack.
+- [rstack-examples](https://github.com/rstackjs/rstack-examples): Examples for Rstack.
+- [rstack-design-resources](https://github.com/rstackjs/rsfamily-desgin-resources): Design resources for Rstack.
 
 ### Ecosystem
 
@@ -51,7 +51,7 @@ Upper-level frameworks or libraries that are powered by Rspack or connected to R
 
 - [Rspeedy](https://lynxjs.org/rspeedy/): The Rspack-based build tool designed specifically for [Lynx](https://lynxjs.org/) applications.
 - [Modern.js](https://modernjs.dev/): A progressive React framework for web development.
-- [storybook-rsbuild](https://github.com/rspack-contrib/storybook-rsbuild): Storybook builder powered by Rsbuild.
+- [storybook-rsbuild](https://github.com/rstackjs/storybook-rsbuild): Storybook builder powered by Rsbuild.
 - [@nx/rspack](https://nx.dev/nx-api/rspack): The Nx plugin for Rspack.
 - [@nx/rsbuild](https://nx.dev/nx-api/rsbuild): The Nx plugin for Rsbuild.
 - [Docusaurus](https://docusaurus.io/blog/releases/3.6#docusaurus-faster): Help you ship a beautiful documentation site in no time.
@@ -92,7 +92,7 @@ Upper-level frameworks or libraries that are powered by Rspack or connected to R
 - [TanStacked](https://github.com/mohmmedraad/TanStacked): React + Tanstack Router + Shadcn + Tailwind CSS v4 And Biome with Rsbuild boilerplate.
 - [rsbuild_vue3_h5_template](https://github.com/DMaiGit/rsbuild_vue3_h5_template): A project template for Vue 3. It includes popular libraries such as Axios, Pinia, Vant, and Vue Router.
 - [rsbuild-chrome-extension-boilerplate-react](https://github.com/filc-dev/rsbuild-chrome-extension-boilerplate-react): Chrome extension boilerplate for Rsbuild.
-- [rsbuild-plugin-template](https://github.com/rspack-contrib/rsbuild-plugin-template): Use this template to create your own Rsbuild plugin.
+- [rsbuild-plugin-template](https://github.com/rstackjs/rsbuild-plugin-template): Use this template to create your own Rsbuild plugin.
 - [react-antd-admin-pro](https://github.com/cl1107/react-antd-admin-pro): An admin project template for React. It's built with Rsbuild, React 18, TypeScript 5, antd 5, and React Router.
 - [umi-rsbuild](https://github.com/atom-yang/aumi-example): `Umi` + `Rsbuild`, A `Umi` project integrated with `Rsbuild`, you can use `Umi` and its plugins with the same experiences as `Umi` + `Webpack` are.
 - [rsbuild-react-chakra-starter](https://github.com/sozonome/rsbuild-react-chakra-starter): initialize react app with rsbuild, Chakra UI and TypeScript setup. Configured with awesome toolings: Biome, Husky + Lint-Staged, Commitlint, and Turbo.
@@ -115,17 +115,17 @@ Upper-level frameworks or libraries that are powered by Rspack or connected to R
 
 ### Rspack Plugins
 
-- [@rspack/plugin-react-refresh](https://github.com/rspack-contrib/rspack-plugin-react-refresh): Support React Fast Refresh.
-- [@rspack/plugin-preact-refresh](https://github.com/rspack-contrib/rspack-plugin-preact-refresh): Support Preact Refresh.
-- [rspack-manifest-plugin](https://github.com/rspack-contrib/rspack-manifest-plugin): An Rspack plugin for generating an asset manifest.
-- [rspack-plugin-virtual-module](https://github.com/rspack-contrib/rspack-plugin-virtual-module): An Rspack plugin that allows you to create virtual modules.
-- [html-rspack-plugin](https://github.com/rspack-contrib/html-rspack-plugin): Generate files to serve your Rspack bundles.
+- [@rspack/plugin-react-refresh](https://github.com/rstackjs/rspack-plugin-react-refresh): Support React Fast Refresh.
+- [@rspack/plugin-preact-refresh](https://github.com/rstackjs/rspack-plugin-preact-refresh): Support Preact Refresh.
+- [rspack-manifest-plugin](https://github.com/rstackjs/rspack-manifest-plugin): An Rspack plugin for generating an asset manifest.
+- [rspack-plugin-virtual-module](https://github.com/rstackjs/rspack-plugin-virtual-module): An Rspack plugin that allows you to create virtual modules.
+- [html-rspack-plugin](https://github.com/rstackjs/html-rspack-plugin): Generate files to serve your Rspack bundles.
 - [@aaroon/workbox-rspack-plugin](https://github.com/Clarkkkk/workbox-rspack-plugin): A plugin to use workbox in Rspack.
 - [inject-manifest-plugin](https://github.com/tobua/inject-manifest-plugin): Injects a Workbox PWA manifest into a Service Worker.
 - [code-inspector-plugin](https://github.com/zh-lx/code-inspector): Click an element on the page, it can automatically open the editor and position the cursor to the source code of the element.
 - [rspack-plugin-mock](https://github.com/pengzhanbo/rspack-plugin-mock): Rspack and Rsbuild plugin for API mock dev server.
 - [react-cosmos-plugin-rspack](https://github.com/birchill/react-cosmos-plugin-rspack/): Allows building / running React Cosmos using Rspack.
-- [rspack-plugin-cli-copy](https://github.com/rspack-contrib/rspack-plugin-cli-copy): Start the project and automatically copy the network URL of the terminal.
+- [rspack-plugin-cli-copy](https://github.com/rstackjs/rspack-plugin-cli-copy): Start the project and automatically copy the network URL of the terminal.
 - [rtlcss-rspack-plugin](https://github.com/cbbfcd/rtlcss-rspack-plugin): Rspack plugin to create a second css bundle, processed to be rtl.
 - [html-inline-css-rspack-plugin](https://github.com/cbbfcd/html-inline-css-rspack-plugin) A Rspack plugin to convert external stylesheets into embedded stylesheets.
 - [html-rspack-skip-assets-plugin](https://github.com/cbbfcd/html-rspack-skip-assets-plugin) Adapt `html-webpack-skip-assets-plugin` to Rspack.
@@ -146,7 +146,7 @@ Rspack and Rsbuild support most of the webpack plugins, such as:
 - [css-minimizer-webpack-plugin](https://github.com/webpack-contrib/css-minimizer-webpack-plugin): Uses cssnano to optimize and minify your CSS.
 - [dotenv-webpack](https://github.com/mrsteele/dotenv-webpack): A secure plugin that supports dotenv and other environment variables.
 - [eslint-webpack-plugin](https://github.com/webpack-contrib/eslint-webpack-plugin): Uses eslint to find and fix problems in your JavaScript code.
-- [ts-checker-rspack-plugin](https://github.com/rspack-contrib/ts-checker-rspack-plugin): Runs TypeScript type checker on a separate process.
+- [ts-checker-rspack-plugin](https://github.com/rstackjs/ts-checker-rspack-plugin): Runs TypeScript type checker on a separate process.
 - [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin): Simplifies creation of HTML files to serve your bundles.
 - [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer): Visualize size of webpack output files with an interactive zoomable treemap.
 - [@vanilla-extract/webpack-plugin](https://github.com/vanilla-extract-css/vanilla-extract): Integrating vanilla-extract with webpack / Rspack.
@@ -177,7 +177,7 @@ Rspack and Rsbuild support most of the webpack loaders, such as:
 - [@svgr/webpack](https://github.com/gregberge/svgr/tree/main/packages/webpack): Loader for SVGR.
 - [yaml-loader](https://github.com/eemeli/yaml-loader): Allows importing YAML files as JS objects.
 - [react-compiler-webpack](https://github.com/SukkaW/react-compiler-webpack): The webpack / Rspack loader for React Compiler.
-- [worker-rspack-loader](https://github.com/rspack-contrib/worker-rspack-loader): An Rspack loader that registers a script as a Web Worker.
+- [worker-rspack-loader](https://github.com/rstackjs/worker-rspack-loader): An Rspack loader that registers a script as a Web Worker.
 - [rsbuild-plugin-markdown-loader](https://github.com/aliezzahn/rsbuild-plugin-markdown-loader): Importing and rendering Markdown files as React components or pure HTML.
 - [@vue-vine/rspack-loader](https://github.com/vue-vine/vue-vine): Rspack loader for Vue Vine.
 
@@ -186,19 +186,19 @@ Rspack and Rsbuild support most of the webpack loaders, such as:
 #### For React
 
 - [@rsbuild/plugin-react](https://rsbuild.rs/plugins/list/plugin-react): Provides support for React.
-- [rsbuild-plugin-react-router](https://github.com/rspack-contrib/rsbuild-plugin-react-router): Provides seamless integration with React Router.
+- [rsbuild-plugin-react-router](https://github.com/rstackjs/rsbuild-plugin-react-router): Provides seamless integration with React Router.
 - [@rsbuild/plugin-svgr](https://rsbuild.rs/plugins/list/plugin-svgr): Support convert SVG to React components.
-- [@rsbuild/plugin-styled-components](https://github.com/rspack-contrib/rsbuild-plugin-styled-components): Provides compile-time support for styled-components.
+- [@rsbuild/plugin-styled-components](https://github.com/rstackjs/rsbuild-plugin-styled-components): Provides compile-time support for styled-components.
 - [rsbuild-plugin-react-inspector](https://github.com/hunghg255/rsbuild-plugin-react-inspector): Allows automatic jumping to the local IDE when clicking on a browser element.
 - [rsbuild-react-generate-pages](https://github.com/hunghg255/rsbuild-react-generate-pages): Generate pages for React app based on the directory structure and `react-router-dom` configuration.
 
 #### For Vue
 
 - [@rsbuild/plugin-vue](https://rsbuild.rs/plugins/list/plugin-vue): Provides support for Vue 3 SFC (Single File Components).
-- [@rsbuild/plugin-vue-jsx](https://github.com/rspack-contrib/rsbuild-plugin-vue-jsx): Provides support for Vue 3 JSX / TSX syntax.
-- [@rsbuild/plugin-vue2](https://github.com/rspack-contrib/rsbuild-plugin-vue2): Provides support for Vue 2 SFC (Single File Components).
-- [@rsbuild/plugin-vue2-jsx](https://github.com/rspack-contrib/rsbuild-plugin-vue2-jsx): Provides support for Vue 2 JSX / TSX syntax.
-- [rsbuild-plugin-unplugin-vue](https://github.com/rspack-contrib/rsbuild-plugin-unplugin-vue): Integrates `unplugin-vue` for Vue SFC compilation.
+- [@rsbuild/plugin-vue-jsx](https://github.com/rstackjs/rsbuild-plugin-vue-jsx): Provides support for Vue 3 JSX / TSX syntax.
+- [@rsbuild/plugin-vue2](https://github.com/rstackjs/rsbuild-plugin-vue2): Provides support for Vue 2 SFC (Single File Components).
+- [@rsbuild/plugin-vue2-jsx](https://github.com/rstackjs/rsbuild-plugin-vue2-jsx): Provides support for Vue 2 JSX / TSX syntax.
+- [rsbuild-plugin-unplugin-vue](https://github.com/rstackjs/rsbuild-plugin-unplugin-vue): Integrates `unplugin-vue` for Vue SFC compilation.
 - [rsbuild-plugin-vue-inspector](https://github.com/hunghg255/rsbuild-plugin-vue-inspector): Allows automatic jumping to the local IDE when clicking on a browser element.
 - [rsbuild-plugin-vue-legacy](https://github.com/skymoonya/rsbuild-plugin-vue-legacy): Support for Vue versions below 2.7 by setting an alias for `vue`.
 - [rspack-plugin-svg](https://github.com/fuxichen/rspack-plugin-svg): Rsbuild plugin to load SVG files as Vue components, using SVGO for optimization.
@@ -226,52 +226,52 @@ Rspack and Rsbuild support most of the webpack loaders, such as:
 
 #### Common
 
-- [@rsbuild/plugin-assets-retry](https://github.com/rspack-contrib/rsbuild-plugin-assets-retry): Used to automatically resend requests when static assets fail to load.
+- [@rsbuild/plugin-assets-retry](https://github.com/rstackjs/rsbuild-plugin-assets-retry): Used to automatically resend requests when static assets fail to load.
 - [@rsbuild/plugin-babel](https://rsbuild.rs/plugins/list/plugin-babel): Provides support for Babel transpilation capabilities.
-- [@rsbuild/plugin-basic-ssl](https://github.com/rspack-contrib/rsbuild-plugin-basic-ssl): Generate an untrusted, self-signed certificate for the HTTPS server.
-- [@rsbuild/plugin-eslint](https://github.com/rspack-contrib/rsbuild-plugin-eslint): Used to run ESLint checks during the compilation.
-- [@rsbuild/plugin-type-check](https://github.com/rspack-contrib/rsbuild-plugin-type-check): Used to run TypeScript type checker on a separate process.
-- [@rsbuild/plugin-image-compress](https://github.com/rspack-contrib/rsbuild-plugin-image-compress): Compress the image assets.
-- [@rsbuild/plugin-mdx](https://github.com/rspack-contrib/rsbuild-plugin-mdx): Provide support for MDX.
-- [@rsbuild/plugin-node-polyfill](https://github.com/rspack-contrib/rsbuild-plugin-node-polyfill): Used to inject polyfills of Node core modules in the browser side.
-- [@rsbuild/plugin-source-build](https://github.com/rspack-contrib/rsbuild-plugin-source-build): This plugin is designed for the monorepo scenario. It supports referencing source code from other subdirectories and performs build and hot update.
+- [@rsbuild/plugin-basic-ssl](https://github.com/rstackjs/rsbuild-plugin-basic-ssl): Generate an untrusted, self-signed certificate for the HTTPS server.
+- [@rsbuild/plugin-eslint](https://github.com/rstackjs/rsbuild-plugin-eslint): Used to run ESLint checks during the compilation.
+- [@rsbuild/plugin-type-check](https://github.com/rstackjs/rsbuild-plugin-type-check): Used to run TypeScript type checker on a separate process.
+- [@rsbuild/plugin-image-compress](https://github.com/rstackjs/rsbuild-plugin-image-compress): Compress the image assets.
+- [@rsbuild/plugin-mdx](https://github.com/rstackjs/rsbuild-plugin-mdx): Provide support for MDX.
+- [@rsbuild/plugin-node-polyfill](https://github.com/rstackjs/rsbuild-plugin-node-polyfill): Used to inject polyfills of Node core modules in the browser side.
+- [@rsbuild/plugin-source-build](https://github.com/rstackjs/rsbuild-plugin-source-build): This plugin is designed for the monorepo scenario. It supports referencing source code from other subdirectories and performs build and hot update.
 - [@rsbuild/plugin-stylus](https://rsbuild.rs/plugins/list/plugin-stylus): Use Stylus as the CSS preprocessor.
-- [@rsbuild/plugin-check-syntax](https://github.com/rspack-contrib/rsbuild-plugin-check-syntax): Used to analyze the syntax compatibility of artifacts, to see if there are any advanced syntaxes that may cause compatibility issues.
-- [@rsbuild/plugin-css-minimizer](https://github.com/rspack-contrib/rsbuild-plugin-css-minimizer): Used to customize CSS minimizer, switch to [cssnano](https://cssnano.co/) or other tools for CSS compression.
-- [@rsbuild/plugin-typed-css-modules](https://github.com/rspack-contrib/rsbuild-plugin-typed-css-modules): Generate TypeScript declaration files for CSS Modules.
-- [@rsbuild/plugin-pug](https://github.com/rspack-contrib/rsbuild-plugin-pug): Provides support for the Pug template engine.
-- [@rsbuild/plugin-rem](https://github.com/rspack-contrib/rsbuild-plugin-rem): Implements the rem adaptive layout for mobile pages.
-- [@rsbuild/plugin-umd](https://github.com/rspack-contrib/rsbuild-plugin-umd): Used to build outputs in UMD format.
-- [@rsbuild/plugin-yaml](https://github.com/rspack-contrib/rsbuild-plugin-yaml): Used to import YAML files and convert them into JavaScript objects.
-- [@rsbuild/plugin-toml](https://github.com/rspack-contrib/rsbuild-plugin-toml): Used to import TOML files and convert them into JavaScript objects.
-- [rsbuild-plugin-virtual-module](https://github.com/rspack-contrib/rsbuild-plugin-virtual-module): Used to create virtual modules with loader API.
+- [@rsbuild/plugin-check-syntax](https://github.com/rstackjs/rsbuild-plugin-check-syntax): Used to analyze the syntax compatibility of artifacts, to see if there are any advanced syntaxes that may cause compatibility issues.
+- [@rsbuild/plugin-css-minimizer](https://github.com/rstackjs/rsbuild-plugin-css-minimizer): Used to customize CSS minimizer, switch to [cssnano](https://cssnano.co/) or other tools for CSS compression.
+- [@rsbuild/plugin-typed-css-modules](https://github.com/rstackjs/rsbuild-plugin-typed-css-modules): Generate TypeScript declaration files for CSS Modules.
+- [@rsbuild/plugin-pug](https://github.com/rstackjs/rsbuild-plugin-pug): Provides support for the Pug template engine.
+- [@rsbuild/plugin-rem](https://github.com/rstackjs/rsbuild-plugin-rem): Implements the rem adaptive layout for mobile pages.
+- [@rsbuild/plugin-umd](https://github.com/rstackjs/rsbuild-plugin-umd): Used to build outputs in UMD format.
+- [@rsbuild/plugin-yaml](https://github.com/rstackjs/rsbuild-plugin-yaml): Used to import YAML files and convert them into JavaScript objects.
+- [@rsbuild/plugin-toml](https://github.com/rstackjs/rsbuild-plugin-toml): Used to import TOML files and convert them into JavaScript objects.
+- [rsbuild-plugin-virtual-module](https://github.com/rstackjs/rsbuild-plugin-virtual-module): Used to create virtual modules with loader API.
 - [rsbuild-plugin-dts](https://github.com/web-infra-dev/rslib/tree/main/packages/plugin-dts): Generate TypeScript declaration files.
-- [rsbuild-plugin-ejs](https://github.com/rspack-contrib/rsbuild-plugin-ejs): Provide support for the EJS template engine.
+- [rsbuild-plugin-ejs](https://github.com/rstackjs/rsbuild-plugin-ejs): Provide support for the EJS template engine.
 - [rsbuild-plugin-print](https://github.com/hunghg255/rsbuild-plugin-print): Print text, show host with qrcode.
 - [rsbuild-plugin-console-debug](https://github.com/hunghg255/rsbuild-plugin-console-debug): Output debug information in the console.
 - [rsbuild-plugin-generate-file](https://github.com/sumy7/rsbuild-plugin-generate-file): Generate static file and write them to dist folder after packaging.
-- [rsbuild-plugin-google-analytics](https://github.com/rspack-contrib/rsbuild-plugin-google-analytics): Setup Google Analytics in your website.
+- [rsbuild-plugin-google-analytics](https://github.com/rstackjs/rsbuild-plugin-google-analytics): Setup Google Analytics in your website.
 - [rsbuild-plugin-web-extension](https://github.com/filc-dev/rsbuild-plugin-web-extension): Rsbuild plugin for Chrome/web extension.
 - [rsbuild-plugin-web-ext](https://github.com/xbzhang2020/rsbuild-plugin-web-ext/tree/main/packages/rsbuild): A Rsbuild plugin for developing and building browser extensions.
-- [rsbuild-plugin-open-graph](https://github.com/rspack-contrib/rsbuild-plugin-open-graph): Generate Open Graph meta tags.
+- [rsbuild-plugin-open-graph](https://github.com/rstackjs/rsbuild-plugin-open-graph): Generate Open Graph meta tags.
 - [rsbuild-plugin-posthog](https://github.com/m1911star/rsbuild-plugin-posthog): Rsbuild plugin for PostHog.
 - [@webx-kit/rsbuild-plugin](https://github.com/tmkx/webx-kit): Rsbuild plugin for Web eXtension development.
 - [plugin-sails-content](https://github.com/sailscastshq/sails-content/packages/plugin-sails-content): Rsbuild plugin for [Sails Content](https://docs.sailscasts.com/content/).
-- [rsbuild-plugin-html-minifier-terser](https://github.com/rspack-contrib/rsbuild-plugin-html-minifier-terser): An Rsbuild plugin to use `html-minifier-terser` to minify the HTML outputs.
+- [rsbuild-plugin-html-minifier-terser](https://github.com/rstackjs/rsbuild-plugin-html-minifier-terser): An Rsbuild plugin to use `html-minifier-terser` to minify the HTML outputs.
 - [rsbuild-plugin-glsl](https://github.com/sakitam-fdd/rsbuild-plugin-glsl): An Rsbuild plugin to import inline (and compress) GLSL shader.
 - [rsbuild-plugin-marko](https://github.com/ipseonet/rsbuild-plugin-marko): An Rsbuild plugin to provide support for the Marko template engine.
 - [rsbuild-plugin-monaco-editor-nls](https://github.com/zackshen/rsbuild-plugin-monaco-editor-nls): An Rsbuild plugin to localize monaco-editor.
 - [rsbuild-plugin-auto-alias](https://github.com/jwyGithub/rsbuild-plugin-auto-alias): Automatically generate alias based on path.
-- [rsbuild-plugin-tailwindcss](https://github.com/rspack-contrib/rsbuild-plugin-tailwindcss): An Rsbuild plugin to integrate with Tailwind CSS.
+- [rsbuild-plugin-tailwindcss](https://github.com/rstackjs/rsbuild-plugin-tailwindcss): An Rsbuild plugin to integrate with Tailwind CSS.
 - [@module-federation/rsbuild-plugin](https://module-federation.io/guide/basic/rsbuild): An Rsbuild plugin for integrating Module Federation v2.
 - [rsbuild-plugin-wasmpack](https://github.com/im-neiru/rsbuild-plugin-wasmpack): compile Rust crates to WebAssembly using wasm-pack.
-- [rsbuild-plugin-publint](https://github.com/rspack-contrib/rsbuild-plugin-publint): Run `publint` to lint npm packages after the build.
+- [rsbuild-plugin-publint](https://github.com/rstackjs/rsbuild-plugin-publint): Run `publint` to lint npm packages after the build.
 - [rsbuild-plugin-aws-lambda](https://github.com/wxiaoyun/rsbuild-plugin-aws-lambda): An Rsbuild plugin to configure rsbuild to bundle js assets suitable for AWS Lambda.
 - [@devjskit/rsbuild-plugin-langs](https://github.com/devjskit/rsbuild-plugin-langs): Extract content from JSON files and merge into a multi-language file.
 - [@seed-design/rsbuild-plugin](https://github.com/daangn/seed-design): An Rsbuild plugin for the Seed design system.
 - [rsbuild-plugin-arco](https://github.com/zhmushan/rsbuild-plugin-arco): Rsbuild plugins for Arco Design.
 - [rsbuild-plugin-css-optimizer](https://github.com/aliezzahn/rsbuild-plugin-css-optimizer): Customize CSS minification, allowing you to choose between cssnano (JavaScript-based) or Lightning CSS (Rust-based) for high-performance CSS compression.
-- [rsbuild-plugin-devtools-json](https://github.com/rspack-contrib/rsbuild-plugin-devtools-json): Generating `com.chrome.devtools.json` on the fly in the dev server.
+- [rsbuild-plugin-devtools-json](https://github.com/rstackjs/rsbuild-plugin-devtools-json): Generating `com.chrome.devtools.json` on the fly in the dev server.
 - [rsbuild-plugin-rempa](https://github.com/sumy7/rsbuild-plugin-rempa): A Rsbuild plugin designed to collect pages and generate a Multi-Page Application (MPA).
 - [rsbuild-plugin-iconify](https://github.com/pathscale/iconify-preload): A Rsbuild plugin that automatically generates optimized CSS with embedded SVG icons from Iconify.
 - [rsbuild-plugin-arethetypeswrong](https://github.com/colinaaa/rsbuild-plugin-arethetypeswrong): Checking TypeScript type definitions with `arethetypeswrong`.
@@ -279,7 +279,7 @@ Rspack and Rsbuild support most of the webpack loaders, such as:
 - [rsbuild-plugin-protobufjs](https://github.com/baranwang/rsbuild-plugin-protobufjs): An Rsbuild plugin that integrates `protobufjs`.
 - [rsbuild-plugin-cdn-import](https://github.com/fuxichen/rsbuild-plugin-cdn-import): Import modules from CDN with Rsbuild plugin.
 - [rsbuild-plugin-mcp](https://github.com/colinaaa/rsbuild-plugin-mcp): Rsbuild plugin that enables a MCP server for your Rsbuild app to provide information about your setup and modules graphs.
-- [rsbuild-plugin-workspace-dev](https://github.com/rspack-contrib/rsbuild-plugin-workspace-dev): Start monorepo sub-projects in topological order.
+- [rsbuild-plugin-workspace-dev](https://github.com/rstackjs/rsbuild-plugin-workspace-dev): Start monorepo sub-projects in topological order.
 - [rsbuild-plugin-stylelint](https://github.com/zalishchuk/rsbuild-plugin-stylelint): Used to run Stylelint checks during the compilation.
 - [rsbuild-plugin-block-imports](https://github.com/malekabdelkader/rsbuild-plugin-block-imports): Rsbuild plugin to detect and block forbidden imports in Module Federation builds.
 
@@ -296,19 +296,19 @@ Rspack and Rsbuild support most of the webpack loaders, such as:
 - [rspress-plugin-translate](https://github.com/byteHulk/rspress-plugin-translate): Automatically translate your content behind the scenes using GPT's.
 - [rspress-plugin-shiki](https://github.com/hunghg255/rspress-plugin-shiki): Rspress plugin shiki with transformer.
 - [rspress-plugin-remote-page](https://github.com/ulivz/rspress-plugin-remote-page): Load remote markdown file (e.g. README.md) onto your website.
-- [rspress-plugin-font-open-sans](https://github.com/rspack-contrib/rspress-plugin-font-open-sans): Use Open Sans as the default font in your Rspress website.
-- [rspress-plugin-align-image](https://github.com/rspack-contrib/rspress-plugins/tree/main/packages/rspress-plugin-align-image): Rspress plugin to align images in markdown.
-- [rspress-plugin-directives](https://github.com/rspack-contrib/rspress-plugins/tree/main/packages/rspress-plugin-directives): Rspress plugin for custom directives support.
-- [rspress-plugin-file-tree](https://github.com/rspack-contrib/rspress-plugins/tree/main/packages/rspress-plugin-file-tree): Rspress plugin that add tree view for file structure display.
-- [rspress-plugin-gh-pages](https://github.com/rspack-contrib/rspress-plugins/tree/main/packages/rspress-plugin-gh-pages): Rspress plugin to add support for automatic deployment to GitHub Pages.
-- [rspress-plugin-google-analytics](https://github.com/rspack-contrib/rspress-plugins/tree/main/packages/rspress-plugin-google-analytics): Rspress plugin for Google Analytics integration.
-- [rspress-plugin-vercel-analytics](https://github.com/rspack-contrib/rspress-plugins/tree/main/packages/rspress-plugin-vercel-analytics): Rspress plugin for Vercel Analytics integration.
-- [rspress-plugin-katex](https://github.com/rspack-contrib/rspress-plugins/tree/main/packages/rspress-plugin-katex): Rspress plugin to add support for rendering math equations using [KaTeX](https://katex.org/).
-- [rspress-plugin-live2d](https://github.com/rspack-contrib/rspress-plugins/tree/main/packages/rspress-plugin-live2d): Rspress plugin for live2d, powered by [on-my-live2d](https://oml2d.com/).
-- [rspress-plugin-mermaid](https://github.com/rspack-contrib/rspress-plugins/tree/main/packages/rspress-plugin-mermaid): Rspress plugin to render [Mermaid](https://mermaid.js.org/#/) diagrams in markdown files.
-- [rspress-plugin-reading-time](https://github.com/rspack-contrib/rspress-plugins/tree/main/packages/rspress-plugin-reading-time): Rspress plugin to display reading time for your document pages.
-- [rspress-plugin-supersub](https://github.com/rspack-contrib/rspress-plugins/tree/main/packages/rspress-plugin-supersub): Rspress plugin to add superscript(`<super></super>`) and subscript(`<sub></sub>`) support.
-- [rspress-plugin-toc](https://github.com/rspack-contrib/rspress-plugins/tree/main/packages/rspress-plugin-toc): Rspress plugin that injects a table of contents into the page.
+- [rspress-plugin-font-open-sans](https://github.com/rstackjs/rspress-plugin-font-open-sans): Use Open Sans as the default font in your Rspress website.
+- [rspress-plugin-align-image](https://github.com/rstackjs/rspress-plugins/tree/main/packages/rspress-plugin-align-image): Rspress plugin to align images in markdown.
+- [rspress-plugin-directives](https://github.com/rstackjs/rspress-plugins/tree/main/packages/rspress-plugin-directives): Rspress plugin for custom directives support.
+- [rspress-plugin-file-tree](https://github.com/rstackjs/rspress-plugins/tree/main/packages/rspress-plugin-file-tree): Rspress plugin that add tree view for file structure display.
+- [rspress-plugin-gh-pages](https://github.com/rstackjs/rspress-plugins/tree/main/packages/rspress-plugin-gh-pages): Rspress plugin to add support for automatic deployment to GitHub Pages.
+- [rspress-plugin-google-analytics](https://github.com/rstackjs/rspress-plugins/tree/main/packages/rspress-plugin-google-analytics): Rspress plugin for Google Analytics integration.
+- [rspress-plugin-vercel-analytics](https://github.com/rstackjs/rspress-plugins/tree/main/packages/rspress-plugin-vercel-analytics): Rspress plugin for Vercel Analytics integration.
+- [rspress-plugin-katex](https://github.com/rstackjs/rspress-plugins/tree/main/packages/rspress-plugin-katex): Rspress plugin to add support for rendering math equations using [KaTeX](https://katex.org/).
+- [rspress-plugin-live2d](https://github.com/rstackjs/rspress-plugins/tree/main/packages/rspress-plugin-live2d): Rspress plugin for live2d, powered by [on-my-live2d](https://oml2d.com/).
+- [rspress-plugin-mermaid](https://github.com/rstackjs/rspress-plugins/tree/main/packages/rspress-plugin-mermaid): Rspress plugin to render [Mermaid](https://mermaid.js.org/#/) diagrams in markdown files.
+- [rspress-plugin-reading-time](https://github.com/rstackjs/rspress-plugins/tree/main/packages/rspress-plugin-reading-time): Rspress plugin to display reading time for your document pages.
+- [rspress-plugin-supersub](https://github.com/rstackjs/rspress-plugins/tree/main/packages/rspress-plugin-supersub): Rspress plugin to add superscript(`<super></super>`) and subscript(`<sub></sub>`) support.
+- [rspress-plugin-toc](https://github.com/rstackjs/rspress-plugins/tree/main/packages/rspress-plugin-toc): Rspress plugin that injects a table of contents into the page.
 - [rspress-plugin-clarity](https://github.com/jl917/rspress-plugin-clarity): Rspress plugin for [Clarity](https://clarity.microsoft.com/) integration.
 - [rspress-plugin-sitemap](https://github.com/jl917/rspress-plugin-sitemap): Automatically generate SEO-related sitemaps.
 - [rspress-plugin-mention-github](https://github.com/hunghg255/rspress-plugin-mention-github): Rspress plugin mention github user, or any link.
@@ -345,8 +345,8 @@ Rspack and Rsbuild support most of the [unplugin](https://github.com/unplugin), 
 ## Libraries
 
 - [@rspack/dev-server](https://github.com/web-infra-dev/rspack-dev-server): Dev server for Rspack, provides the same API as webpack-dev-server.
-- [@rspack/lite-tapable](https://github.com/rspack-contrib/rspack-lite-tapable): Lite weight tapable for Rspack.
-- [rspack-chain](https://github.com/rspack-contrib/rspack-chain): A chaining API to generate and simplify the modification of Rspack configurations.
+- [@rspack/lite-tapable](https://github.com/rstackjs/rspack-lite-tapable): Lite weight tapable for Rspack.
+- [rspack-chain](https://github.com/rstackjs/rspack-chain): A chaining API to generate and simplify the modification of Rspack configurations.
 - [Sails Shipwright](https://github.com/sailshq/sails-hook-shipwright) - The modern asset pipeline for [Sails](https://sailsjs.com) powered by Rsbuild.
 - [rspackify](https://github.com/SyMind/rspackify): Experience lightning-fast builds by instantly switching from webpack to Rspack.
 - [Spinpack](https://github.com/denniscual/spinpack): A CLI tool that turbocharges the developer server experience for CRA projects with Rspack.
