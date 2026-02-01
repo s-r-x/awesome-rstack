@@ -69,6 +69,7 @@ Upper-level frameworks or libraries that are powered by Rspack or connected to R
 - [PrevelteKit](https://github.com/tbocek/preveltekit): A lightweight, high-performance web application framework built on Svelte 5, featuring Server-Side Pre Rendering (SSPR) using Rsbuild as the build tool.
 - [Kmi](https://github.com/kmijs/kmi): Based on Umi to provide Rspack support and other best practices.
 - [xmcp](https://github.com/basementstudio/xmcp): A framework for building and shipping MCP servers with TypeScript and Rspack.
+- [Meteor](https://github.com/meteor/meteor): An ultra-simple environment for building modern web applications with Rspack.
 
 ## Starter
 
