@@ -71,6 +71,10 @@ Upper-level frameworks or libraries that are powered by Rspack or connected to R
 - [xmcp](https://github.com/basementstudio/xmcp): A framework for building and shipping MCP servers with TypeScript and Rspack.
 - [Meteor](https://github.com/meteor/meteor): An ultra-simple environment for building modern web applications with Rspack.
 
+## Skills
+
+- [agent-skills](https://github.com/rstackjs/agent-skills): A collection of Agent Skills for Rstack.
+
 ## Starter
 
 ### Rspack Starter
